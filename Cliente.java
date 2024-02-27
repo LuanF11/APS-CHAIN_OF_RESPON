@@ -3,7 +3,8 @@ public class Cliente {
     public static void main(String[] args) {
 
                 //Diminua para abaixo de 10 a quantidade de produtos para ver o desconto por valor total
-                Produto produto = new Produto("Notebook", 800, 10);
+                //Para que se ative o outro handle
+                Produto produto = new Produto("Notebook", 800, 11);
 
                 DescontoHandler descontoHandler1 = new DescontoPorQuantidade();
                 DescontoHandler descontoHandler2 = new DescontoPorValorTotal();
